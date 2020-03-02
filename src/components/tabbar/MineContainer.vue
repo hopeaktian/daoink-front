@@ -3,7 +3,7 @@
     <!-- 个人信息 -->
     <van-row class="panel-selfinfo">
       <van-col span="6" offset="2">
-        <img width="100" class="img-head" src="../../assets/head-roo.gif" />
+        <img width="100" class="img-head" src="../../assets/images/logo.jpg" />
       </van-col>
       <van-col span="16">
         <!-- 已登录时,显示 -->
@@ -28,7 +28,7 @@
               <van-button plain type="info" size="small" to="/mine/login">登录</van-button>
             </van-col>
             <van-col span="6" offset="1">
-              <van-button plain type="primary" size="small">注册</van-button>
+              <van-button plain type="primary" size="small" to="/mine/register">注册</van-button>
             </van-col>
           </van-row>
         </div>
@@ -80,10 +80,10 @@ export default {
 .img-head {
   width: 62px;
   height: 62px;
-  border-radius: 0.5em;
+  border-radius: 14px;
 }
 .font-phone {
-  font-size: 1.3em;
+  font-size: 20px;
   font-weight: 500;
   color: dimgrey;
 }

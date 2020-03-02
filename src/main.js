@@ -1,5 +1,9 @@
 import Vue from 'vue'
 import App from './App.vue'
+
+// 导入mui的样式  
+// import './lib/mui/css/mui.css'
+
 // 1.1 导入VueRouter
 import VueRouter from 'vue-router'
 // 1.2 安装VueRouter
@@ -38,10 +42,17 @@ import { Overlay } from 'vant';
 import { NavBar } from 'vant';
 import { Field } from 'vant';
 import { Form } from 'vant';
+import { Switch } from 'vant';
 
 // 引入Mint-UI组件
 import { Toast } from 'mint-ui';
 Vue.component(Toast);
+
+// 引入muse-ui
+// import 'muse-ui/lib/styles/base.less';
+// import 'muse-ui/lib/styles/theme.less';
+// import { Button, Select } from 'muse-ui';
+
 
 // 安装vant组件
 Vue.use(Swipe);
@@ -61,6 +72,7 @@ Vue.use(Overlay);
 Vue.use(NavBar);  
 Vue.use(Field);  
 Vue.use(Form);  
+Vue.use(Switch);  
 
 
 

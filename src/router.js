@@ -7,6 +7,7 @@ import DocContainer from './components/tabbar/DocContainer'
 import OrderContainer from './components/tabbar/OrderContainer'
 import MineContainer from './components/tabbar/MineContainer'
 import Login from './components/single_pages/login'
+import Register from './components/single_pages/register'
 
 
 // 创建路由对象
@@ -16,7 +17,8 @@ var router = new VueRouter({
     { path: '/doc', component: DocContainer },
     { path: '/order', component: OrderContainer },
     { path: '/mine', component: MineContainer },
-    { path: '/mine/login', component: Login }
+    { path: '/mine/login', component: Login },
+    { path: '/mine/register', component: Register }
   ],
   // linkActiveClass: ''
 })

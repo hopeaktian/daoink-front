@@ -10,11 +10,17 @@ module.exports = {
       libraryDirectory: 'es',
       style: true
     }, 'vant'],
+    // muse-ui
+    ["import", {
+      "libraryName": "muse-ui",
+      "libraryDirectory": "lib",
+      "camel2DashComponentName": false
+    }],
     // mint
-    ["component",{
-        libraryName: "mint-ui",
-        style: true
-      }
+    ["component", {
+      libraryName: "mint-ui",
+      style: true
+    }
     ]
   ]
 }
