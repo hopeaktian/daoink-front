@@ -43,6 +43,12 @@ import { NavBar } from 'vant';
 import { Field } from 'vant';
 import { Form } from 'vant';
 import { Switch } from 'vant';
+import { Uploader } from 'vant';
+import { List } from 'vant';
+import { Tab, Tabs } from 'vant';
+import { Collapse, CollapseItem } from 'vant';
+import { NoticeBar } from 'vant';
+
 
 // 引入Mint-UI组件
 import { Toast } from 'mint-ui';
@@ -73,6 +79,14 @@ Vue.use(NavBar);
 Vue.use(Field);  
 Vue.use(Form);  
 Vue.use(Switch);  
+Vue.use(Uploader);
+Vue.use(List);
+Vue.use(Tab);
+Vue.use(Tabs);
+Vue.use(Collapse);
+Vue.use(CollapseItem);
+Vue.use(NoticeBar);
+  
 
 
 

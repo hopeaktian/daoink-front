@@ -4,7 +4,7 @@ import VueRouter from 'vue-router'
 
 import HomeContainer from './components/tabbar/HomeContainer'
 import DocContainer from './components/tabbar/DocContainer'
-import OrderContainer from './components/tabbar/OrderContainer'
+import FriendsContainer from './components/tabbar/FriendsContainer'
 import MineContainer from './components/tabbar/MineContainer'
 import Login from './components/single_pages/login'
 import Register from './components/single_pages/register'
@@ -15,7 +15,7 @@ var router = new VueRouter({
   routes: [ // 配置路由规则
     { path: '/', component: HomeContainer },
     { path: '/doc', component: DocContainer },
-    { path: '/order', component: OrderContainer },
+    { path: '/friends', component: FriendsContainer },
     { path: '/mine', component: MineContainer },
     { path: '/mine/login', component: Login },
     { path: '/mine/register', component: Register }

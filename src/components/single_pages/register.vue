@@ -41,7 +41,7 @@
             :rules="[{ required: true, message: '请填写密码' }]"
           />
           <van-row type="flex" align="center" style="height: 50px">
-            <van-col span="9" offset="1">
+            <van-col span="10" offset="1">
               <span class="span-confirm">阅读并同意</span>
               <a class="a-confirm" href="#">《相关条款》</a>
             </van-col>

@@ -1,15 +1,13 @@
 <template>
   <div id="app">
     <!-- 中间vue-router部分 -->
-    <transition>
-      <router-view></router-view>
-    </transition>
+    <router-view></router-view>
     <!-- 底部 -->
     <van-tabbar :route="true" :safe-area-inset-bottom="true" v-show="show_tabbar">
       <van-tabbar-item replace to="/" icon="wap-home" van-tabbar-item--active>首页</van-tabbar-item>
-      <van-tabbar-item replace to="/doc" icon="column" dot>资料库</van-tabbar-item>
-      <van-tabbar-item replace to="/order" icon="cart" info="5">订单</van-tabbar-item>
-      <van-tabbar-item replace to="/mine" icon="manager" info="20">我的</van-tabbar-item>
+      <!-- <van-tabbar-item replace to="/doc" icon="column" dot>资料库</van-tabbar-item> -->
+      <van-tabbar-item replace to="/friends" icon="friends" info="5">同学圈</van-tabbar-item>
+      <van-tabbar-item replace to="/mine" icon="manager" info="">我的</van-tabbar-item>
     </van-tabbar>
   </div>
 </template>
@@ -60,7 +58,7 @@ body {
 }
 
 /* 切换tabbar的动画 */
-.v-enter{
+/* .v-enter{
   opacity: 0;
   transform: translateX(100%)
 }
@@ -69,10 +67,12 @@ body {
   transform: translateX(100%);
   position: absolute
 }
-.v-enter-active,
-.v-leave-active{
-  transition: all 0.1s ease;
+.v-enter-active{
+  transition: all 1s ease
 }
+.v-leave-active{
+  transition: all 1s ease;
+} */
 
 .my-swipe .van-swipe-item {
   color: #fff;
