@@ -144,12 +144,19 @@ export default {
 
 <style scoped>
 .my-swipe {
-  height: 100px;
+  line-height: 0px;
+  border-radius: 0.5em;
+  box-shadow: 0px 5px 5px #888888;
+}
+.van-swipe-item{
+  line-height: 0px;
   border-radius: 0.5em;
   box-shadow: 0px 5px 5px #888888;
 }
 .img-swipe {
   width: 100%;
+  /* border-radius: 0.5em;
+  box-shadow: 0px 5px 5px #888888; */
 }
 .upload-panel {
   padding: 20px;

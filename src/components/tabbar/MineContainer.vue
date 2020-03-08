@@ -40,6 +40,7 @@
     <!-- 中间菜单 -->
     <van-cell-group>
       <van-cell title="问题与反馈" icon="records" size="large" is-link />
+      <van-cell title="设置课表" icon="setting-o" size="large" is-link />
     </van-cell-group>
   </div>
 </template>

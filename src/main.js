@@ -4,6 +4,17 @@ import App from './App.vue'
 // 导入mui的样式  
 // import './lib/mui/css/mui.css'
 
+// 配置图片点击放大功能
+// import VueDirectiveImagePreviewer from 'vue-directive-image-previewer'
+// import 'vue-directive-image-previewer/dist/assets/style.css'
+// Vue.use(VueDirectiveImagePreviewer)
+import VueImageView from 'vue-directive-image-previewer'
+import 'vue-directive-image-previewer/dist/assets/style.css'
+Vue.use(VueImageView, {
+  zIndex: '2019'  /*弹框的图片级别设置高点 才能在最上层 看的到 更多参数见文档 */
+})
+
+
 // 1.1 导入VueRouter
 import VueRouter from 'vue-router'
 // 1.2 安装VueRouter
@@ -48,6 +59,7 @@ import { List } from 'vant';
 import { Tab, Tabs } from 'vant';
 import { Collapse, CollapseItem } from 'vant';
 import { NoticeBar } from 'vant';
+import { ImagePreview } from 'vant';
 
 
 // 引入Mint-UI组件
@@ -86,6 +98,7 @@ Vue.use(Tabs);
 Vue.use(Collapse);
 Vue.use(CollapseItem);
 Vue.use(NoticeBar);
+Vue.use(ImagePreview);
   
 
 
