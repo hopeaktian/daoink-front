@@ -8,11 +8,11 @@ import App from './App.vue'
 // import VueDirectiveImagePreviewer from 'vue-directive-image-previewer'
 // import 'vue-directive-image-previewer/dist/assets/style.css'
 // Vue.use(VueDirectiveImagePreviewer)
-import VueImageView from 'vue-directive-image-previewer'
-import 'vue-directive-image-previewer/dist/assets/style.css'
-Vue.use(VueImageView, {
-  zIndex: '2019'  /*弹框的图片级别设置高点 才能在最上层 看的到 更多参数见文档 */
-})
+// import VueImageView from 'vue-directive-image-previewer'
+// import 'vue-directive-image-previewer/dist/assets/style.css'
+// Vue.use(VueImageView, {
+//   zIndex: '2019'  /*弹框的图片级别设置高点 才能在最上层 看的到 更多参数见文档 */
+// })
 
 
 // 1.1 导入VueRouter
